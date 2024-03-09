@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather input{
+    padding: 10px;
+    font-size: 2rem;
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.weather button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: hsl(122, 39%, 50%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.con{
+    background: linear-gradient(180deg,rgb(112, 112, 255),rgb(255, 207, 118));
+    padding: 50px;
+    box-shadow: 2px 2px 5px hsl(0, 0%, 0.5);
+    min-width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+.cityname, .tempdisp{
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.humiditydisp{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.dec{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5rem;
+}
+.emojidisp{
+    margin: 0;
+    font-size: 7.5rem;
+}
+
+.errordisp{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
